@@ -7,3 +7,24 @@
     background-color: white;
     color: steelblue;
 }
+
+img {
+    width: 30%;
+}
+
+p {
+    width: 80%;
+}
+
+
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+
+
+
