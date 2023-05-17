@@ -1,5 +1,6 @@
+
 #content {
-    max-width: 1600px;
+    max-width: 1700px;
     margin: 0 auto; 
   }
   nav a,
@@ -17,8 +18,14 @@
   body {
     background-color: var(--accent2-color);
     color: var(--primary-color);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
   }
   
+  h2 {
+    margin: 0;
+}
   header {
     background-color: rgba(40, 80, 113, 0.7);
     color: var(--secondary-color);
@@ -35,12 +42,16 @@
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
   }
   
   .book:hover,
   .join:hover {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color:#285071 ;
+    color:#ffffff ;
   }
   
   #background {
@@ -51,6 +62,8 @@
   .msg {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    line-height: 1.5em;
+    padding: 35px;
   }
   
   .msg h2 {
@@ -58,13 +71,17 @@
   }
   
   .msg p {
-    color: var(--accent2-color);
+    color:  #68523c;
+    font-size: 0.8em;
+    padding-bottom: 15px;
   }
   
   footer {
-    background-color: var(--secondary-color);
+    background-color:  #285071 ;
     color: var(--accent2-color);
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
   }
   
   footer a,
@@ -82,4 +99,38 @@
     width: 120%;
   }
 
-  
+  nav a {
+    padding: 35px;
+ }
+ 
+  #logo_link {
+    padding-top: 5px;
+ }
+
+ .icon{
+  padding-top: 10px;
+ }
+
+ footer .social img{
+  padding-top: 15px;
+ }
+
+ .home-title{
+  font-size: 2em;
+  font-size: 2em;
+  font-family:Roboto, Helvetica, sans-serif; 
+  text-align: center;
+ }
+ .rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+ }
+
+ .card-img {
+  border: 10px solid #d9c2a3;
+ }  
+
+main section img {
+    box-sizing: border-box;
+}
+
+
