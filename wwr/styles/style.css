@@ -319,4 +319,7 @@ main section img {
   margin-bottom: 20px;
 }
 
-
+#subpage-section img {
+  width: 500px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain the aspect ratio */
+}
