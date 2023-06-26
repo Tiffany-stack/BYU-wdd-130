@@ -1,0 +1,139 @@
+/* Styles for the ThrillSeek website */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Wix+Madefor+Text&display=swap');
+
+
+body {
+    font-family: 'Wix Madefor Text', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #09ff00;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-family: Bebas Neue, Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #137200;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: #137200;
+}
+
+.image-wrapper {
+    display: flex;
+}
+
+.image-wrapper img {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    background-color: #09ff00;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#hero h2 {
+    text-align: center;
+  }
+
+#hero p {
+    text-align: center;
+}
+
+#image-gallery h3 {
+    text-align: center;
+}
+
+#image-gallery p {
+    text-align: center;
+}
+
+#join-us h3{
+    text-align: center;
+}
+
+#join-us p{
+    text-align: center;
+}
+
+#image-gallery .image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+  
+#content .logo {
+    max-width: 150px;
+    height: auto;
+}
+  
+#content header {
+    display: flex;
+    align-items: center;
+  }
+  
+  #content .logo {
+    flex-shrink: 0;
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 1px; /* Adjust the margin as needed */
+  }
+  
+  #content nav {
+    margin-left: 5px;
+  }
+  
+  #content nav a {
+    margin-left: 200px; /* Adjust the margin as needed */
+    padding: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+}
+  
+  
