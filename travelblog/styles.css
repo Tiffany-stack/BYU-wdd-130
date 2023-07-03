@@ -6,8 +6,14 @@ body {
     font-family: 'Wix Madefor Text', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("https://img.freepik.com/premium-photo/green-white-background-with-gradient-bottom-right-corner-image_873925-17673.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.; /* Set the desired opacity value */
+    
 }
 
+  
 header {
     background-color: #09ff00;
     color: rgb(0, 0, 0);
@@ -42,6 +48,31 @@ main {
     padding: 20px;
 }
 
+main p{
+    color:rgb(0, 0, 0)
+}
+
+.button-box {
+    text-align: center;
+  }
+  
+  .book {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #137200;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .book:hover {
+    background-color: #0c5600;
+  }
+  
+
+
 section {
     margin-bottom: 30px;
 }
@@ -51,7 +82,6 @@ section h2 {
     font-size: 32px;
     margin-bottom: 20px;
 }
-
 section h3 {
     color: #137200;
 }
@@ -136,4 +166,28 @@ footer a {
     font-size: x-large;
 }
   
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-box img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.image-box h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.image-box p {
+    font-size: 14px;
+}
   
